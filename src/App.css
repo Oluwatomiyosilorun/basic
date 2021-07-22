@@ -1,38 +1,140 @@
-.App {
+body{
+  background-color: white;
+  /* font-family: Poppins; */
+}
+
+.navbar-toggler-icon{
+  color: black;
+}
+
+button{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;
   text-align: center;
+  color: #FFFFFF;
+  border: 0;
+  background-color: #8e25c0;
+  padding: 0px 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav a{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;  
+  text-align: center;
+  color: #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav a:hover{
+  color: inherit;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.logo_talk{
+  margin-bottom: 0;
+  font-size: 7px;
+  font-weight: bold;
+  position: relative;
+  margin-top: -9px;
+  margin-left: 37px;
+}
+.navbar-nav{
+  justify-content: space-around;
+}
+
+.active{
+  color: #8E23C0 !important;
+}
+
+.nav-item{
+  margin-left: 20px;
+}
+
+.logo img{
+  width: 70%;
+}
+
+.new_experience h4,
+.whats_new h4,
+.together h4,
+.rank h4,
+.what_you_get h4{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 59px;
+  line-height: 80px;
+  color: #8E23C0;
+}
+
+.new_experience p,
+.whats_new p,
+.together_content p,
+.multi_vendor_content p,
+.rank p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 39px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+    margin-top: 10%;
+}
+
+.whats_new_container h4{
+  margin-top: 28%;
+}
+
+.together{
+  background: rgba(144, 52, 192, 0.3);
+  padding: 60px;
+}
+
+.multi_vendor{
+  background-image: url('./assets/images/image_3.svg');
+  background-position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 8px;
+}
+
+.multi_vendor_content{
+  position: relative;
+  margin-top: 23%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.multi_vendor_content span{
+  color: #8E23C0;
+}
+
+.what_you_get{
+  margin-top: 2%;
+}
+
+.rank{
+  background: linear-gradient(130.92deg, rgba(142, 35, 192, 0.595) 26.78%, rgba(142, 35, 192, 0) 61.59%), #DEC2EC;
+  padding: 60px;
+  margin-top: 8%;
+}
+
+footer{
+  background-color: #8E23C0;
+  padding: 20px 60px;
   color: white;
+  justify-content: space-between;
+
 }
 
-.App-link {
-  color: #61dafb;
+footer p{
+  margin-bottom: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sign-up button{
+  padding: 0px 40px;
+  border-radius: 6px;
+  margin-top: 50px;
 }
