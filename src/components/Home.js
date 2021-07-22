@@ -45,25 +45,25 @@ const Home = () => {
                 <div className="new_experience d-flex mt-4">
                     <div className="col-lg-6">
                         <h4>A new experience in online shopping</h4>
-                        <p>You never have to ask around anymore for reliable vendors, we have them all here</p>
+                        <p className="d-none d-md-block d-lg-block">You never have to ask around anymore for reliable vendors, we have them all here</p>
                         <div className="text-center sign-up">
                             <button>Sign up</button>
                         </div>
                     </div>
 
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 d-none d-md-block d-lg-block">
                         <img src={Smile} alt="" className="w-100"/>
                     </div>
                 </div>
 
                 <div className="whats_new d-flex mt-5">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 d-none d-md-block d-lg-block">
                         <img src={New} alt="" className="w-100"/>
                     </div>
 
                     <div className="col-lg-6 whats_new_container">
                         <h4>What’s New?</h4>
-                        <p>Find, follow and stay connected to your favourite vendor.Get notifications on new products,discounts and promos.</p>
+                        <p>Find, follow and stay connected to your favourite vendor. Get notifications on new products,discounts and promos.</p>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@ const Home = () => {
             <div className="together">
                 <h4 className="text-center">Group Buy-Buy Together,Save Together</h4>
                 <div className="together_content d-flex">
-                    <div className="col-lg-6">   
+                    <div className="col-lg-6 d-none d-md-block d-lg-block">   
                         <img src={Shopping} alt="" className="w-100"/>
                     </div>
 
@@ -84,7 +84,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="multi_vendor text-center">
+            <div className="multi_vendor text-center d-none d-md-block d-lg-block">
                 <div className="multi_vendor_content">
                     <p>Are you a vendor looking for ways to build a profitable business, build a community of buyers who are crazy about your brand?
                         <br/>
@@ -105,13 +105,13 @@ const Home = () => {
                     <li>You will never have to deal with fake payment because of our  wallet and escrow features</li>
                 </div>
                 <div className="text-center sign-up">
-                    <p>Get In To Learn More</p>
+                    <p className="d-none d-md-block d-lg-block">Get In To Learn More</p>
                     <button>Get Started</button>
                 </div>
             </div>
 
             <div className="rank d-flex">
-                <div className="col-lg-6">
+                <div className="col-lg-6 d-none d-md-block d-lg-block">
                     <img src={Emoji} alt="" className="w-100"/>
                 </div>
 
@@ -119,7 +119,7 @@ const Home = () => {
                     <h4>Grow your rank!</h4>
                     <div className="text-center">
                         <p>Grow your rank and unlock exciting and rewarding shopping features that will blow your mind</p>
-                        <p>Get notified when we go live</p>
+                        <p className="d-none d-md-block d-lg-block">Get notified when we go live</p>
 
                         <div className="text-center sign-up">
                             <button>Sign up</button>
@@ -128,7 +128,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <footer className="d-flex">
+            <footer className="d-none d-md-flex">
                 <div>
                     <h5>Quick Links</h5>
                     <p>About</p>
